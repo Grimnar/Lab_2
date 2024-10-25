@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Проверка CAPTCHA</title>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</head>
+<body>
+    <h2>Пожалуйста, подтвердите, что вы не робот</h2>
+    <form action="/captcha" method="post">
+        <div class="g-recaptcha" data-sitekey="6LcnE2kqAAAAAL-cXOuYwT8OqgV7mGThMIRr7lWO"></div>
+        <input type="submit" value="Подтвердить">
+    </form>
+</body>
+</html>
